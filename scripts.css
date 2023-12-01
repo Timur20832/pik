@@ -1,0 +1,27 @@
+.text__block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 233, 233);
+}
+
+.block__item {
+    width: 80%;
+    text-indent: 20px;
+}
+
+.text__style-p{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.text__style-span {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #999999;
+    text-transform: none;
+}

@@ -1,0 +1,80 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.blocks__positions{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.blocks__positions section {
+    display: flex;
+    justify-content: center;
+}
+
+.button__style{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color:#c4bdc6;
+    border: none;
+    border-radius: 80px; /* половина ширины или высоты, чтобы сделать форму круглой */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.button__style:hover {
+    background-color: #696768; /* изменение цвета при наведении */
+    cursor: pointer; /* изменение курсора при наведении */
+}
+
+/* Стили для навигации */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Стили для разделов */
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
